@@ -2,9 +2,6 @@
 /* ---------------------------------------------------------- */
 
 .gh-foot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 8vmin 4vmin 4vmin;
 }
 
@@ -46,7 +43,7 @@
 .gh-foot-meta {
     margin: 2rem 0;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     opacity: 0.75;
 }
 
