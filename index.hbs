@@ -15,21 +15,35 @@
             <p>
                 Feel free to get to know me. <br />
                 This is what I’m up to right now. <br />
-                And if you’d like to know more? Contact me. <br/>
             </p>
         </div>
 
     </div>
     <div class="gh-container">
 
-
-        <div class="gh-postfeed">
-        {{#foreach posts}}
-
-            {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
-
-        {{/foreach}}
+        <div class="gh-content">
+            <h2 class="gh-title">posts</h2>
         </div>
+
+        <table class="post-list-table">
+            <thead>
+            <tr>
+                <th class="sr-only">Date</th>
+                <th class="sr-only">Post Title</th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+                {{#foreach posts}}
+
+                    {{> "card" page=../pagination.page }} {{!-- partials/card.hbs --}}
+
+                {{/foreach}}
+
+            </tbody>
+
+        </table>
 
         {{!-- If JS isn't enabled, fallback to standard pagination --}}
         <noscript>

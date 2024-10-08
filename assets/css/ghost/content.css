@@ -17,6 +17,7 @@
         [main-start] var(--main) [main-end]
         var(--wide) [wide-end]
         var(--full) [full-end];
+    padding-bottom: 5rem;
 }
 
 .gh-canvas > * {
