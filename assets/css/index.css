@@ -45,11 +45,9 @@ html,
 }
 
 .gh-page {
-    padding: 0 4vmin;
 }
 
 .gh-article {
-    padding: 8vmin 0;
 }
 
 .gh-postfeed {
@@ -65,7 +63,7 @@ html,
 
 .gh-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 680px;
     margin: 0 auto;
 }
 
@@ -179,7 +177,7 @@ html,
 
 .gh-header {
     padding: 0 0 8vmin 0;
-    text-align: center;
+    text-align: left;
 }
 
 .gh-post-meta {

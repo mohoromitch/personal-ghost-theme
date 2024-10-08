@@ -10,7 +10,7 @@
     --wide: minmax(0, calc((var(--container-width, 1200px) - var(--content-width, 720px)) / 2));
     --full: minmax(var(--gap), 1fr);
 
-    display: grid;
+    display: block;
     grid-template-columns:
         [full-start] var(--full)
         [wide-start] var(--wide)
@@ -40,6 +40,10 @@
 /* Content & Typography
 /* ---------------------------------------------------------- */
 
+.gh-content {
+    max-width: 680px;
+}
+
 .gh-content > * + * {
     margin-top: 4vmin;
 }
@@ -64,8 +68,8 @@
 .gh-canvas > p {
     font-family: var(--font-sans-serif);
     font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.6em;
+    font-size: 1.8rem;
+    line-height: 1.55;
 }
 
 .gh-content > ul,
