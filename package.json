@@ -1,14 +1,14 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
-    "demo": "https://starter.ghost.io",
+    "name": "mohoromitch",
+    "description": "Mitchell Mohorovich's personal website theme, based on Bootstrap 5",
+    "demo": "https://mitchell.mohorovich.ca",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
     "license": "MIT",
     "screenshots": {
-        "desktop": "assets/screenshot-desktop.jpg"
+        "desktop": "assets/desktop.png"
     },
     "scripts": {
         "dev": "rollup -c --environment BUILD:development -w",
@@ -18,9 +18,9 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Mitchell Mohorovich",
+        "email": "mitchell@mohorovich.ca",
+        "url": "mitchell.mohorovich.ca"
     },
     "gpm": {
         "type": "theme",
@@ -32,14 +32,25 @@
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "starter",
+        "bootstrap",
+        "mitchell",
+        "mohorovich",
+        "mohoromitch"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/mohoromitch/personal-ghost-theme"
     },
     "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "contributors": [
+        {
+            "email": "mitchell@mohorovich.ca",
+            "name": "Mitchell Mohorovich",
+            "url": "mitchell.mohorovich.ca"
+        }
+    ],
     "devDependencies": {
         "@babel/core": "^7.21.0",
         "@babel/preset-env": "^7.20.2",
@@ -51,7 +62,7 @@
         "postcss": "^8.4.24",
         "postcss-import": "^15.1.0",
         "postcss-preset-env": "^8.0.1",
-        "rollup": "^3.18.0",
+        "rollup": "4.22.4",
         "rollup-plugin-livereload": "^2.0.5",
         "rollup-plugin-postcss": "^4.0.2"
     },

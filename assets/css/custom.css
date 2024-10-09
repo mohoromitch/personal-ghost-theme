@@ -1,0 +1,49 @@
+.navbar {
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 120%;
+}
+
+.container {
+    max-width: 680px;
+}
+
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+
+tr td{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+a {
+    color: #006400;
+}
+
+body a,
+body a:hover,
+body a:focus {
+    transition: all 0.35s ease;
+}
+
+.footer .text-muted {
+    font-size: 10px;
+    color: #adadad;
+}
+
+.kg-width-wide img,
+.kg-width-full img {
+    max-width: 100%;
+}

@@ -1,0 +1,16 @@
+<!--
+
+<div class="my-fancy-nav-wrapper">
+    <ul class="nav">
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+    </ul>
+</div>
+-->
+
+<div class="navbar-nav">
+    {{#foreach navigation}}
+        <a class="nav-link text-lowercase {{#if current}} active {{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+    {{/foreach}}
+</div>
