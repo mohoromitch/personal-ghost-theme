@@ -15,11 +15,6 @@ body {
 }
 
 
-tr td{
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 h1 {
     margin-bottom: 20px;
 }
@@ -92,3 +87,13 @@ figure figcaption {
 footer {
     font-size: 80%;
 }
+
+
+.home-post-table {
+    padding: 0 10px 6px 0;
+}
+
+.home-post-table a {
+    text-decoration: none;
+}
+
