@@ -2,7 +2,7 @@
     "name": "mohoromitch",
     "description": "Mitchell Mohorovich's personal website theme, based on Bootstrap 5",
     "demo": "https://mitchell.mohorovich.ca",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
